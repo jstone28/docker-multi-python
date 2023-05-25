@@ -24,9 +24,7 @@ apt-get install -y \
     python3.??-venv \
     ;
 
-ln -sf /usr/bin/python3.7 /usr/bin/python3 # default python3 to 3.7
-
-/usr/bin/python3 -m pip3 install \
+pip3 install \
     flit \
     tox \
     virtualenv \

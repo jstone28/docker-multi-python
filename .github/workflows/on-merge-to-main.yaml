@@ -22,6 +22,6 @@ jobs:
         uses: docker/build-push-action@v4
         with:
           context: .
-          file: Dockerfile.focal
+          file: Dockerfile.ci
           push: true
           tags: jstone28/python3.7-ci:latest
