@@ -34,3 +34,5 @@ apt-get --purge autoremove -y gnupg
 rm -rf /var/cache/apt/lists
 
 dpkg-query --show python2.? python3.? python3.?? > /versions
+
+ln -sf /usr/bin/python3.7 /usr/bin/python3 # default python3 to 3.7
